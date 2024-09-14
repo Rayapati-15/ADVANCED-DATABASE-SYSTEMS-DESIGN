@@ -1,6 +1,6 @@
 import sqlite3
 # Connect to a database (or create one if it doesn't exist)
-connection = sqlite3.connect('Example2.db')
+connection = sqlite3.connect('Ex2.db')
 # Create a cursor object to interact with the database
 cursor = connection.cursor()
 cursor.execute('''CREATE TABLE Students (Id INTEGER PRIMARY KEY, name TEXT, grade REAL)''')
